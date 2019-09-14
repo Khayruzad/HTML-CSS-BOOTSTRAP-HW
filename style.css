@@ -1,5 +1,125 @@
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
 
-/* body{
-    background:rgb(252, 220, 225);
-} */
+header{
+    background:lightsteelblue;
+}
+body{
+background:lightyellow;
+}
+
+.text-muted{
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wrapper{
+  margin: 5px;
+  border-radius: 5px;
+  padding-top:0;
+  padding-bottom: 5px;
+  box-shadow: 0 0 4px 2px lightcoral;
+}
+#intro{
+    vertical-align: middle;
+    border: 0;
+
+}
+
+
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center; 
+    color: black;
+    
+}
+h3{
+  text-align: center;
+  color: purple;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+    
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+   
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.card-footer{
+  text-align: center;
+  
+}
+.card-footer1{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ }
+
+.card-columns   
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  @include media-breakpoint-only(lg) {
+    column-count: 4;}
+
+    
+   
+    
+    
+    
+    
+    
+    
+    
